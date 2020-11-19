@@ -8,6 +8,22 @@
   border-bottom: 10px solid #fff;
   @extend %message-border;
 
+  .eighth-container__scroll {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    cursor: pointer;
+
+    p {
+      align-items: center;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 26px;
+      letter-spacing: 2.8px;
+      color: #fff;
+    }
+  }
   .eighth-container__text {
     text-align: center;
     color: #fff;
@@ -45,7 +61,5 @@
         color: blue;
       }
     }
-  }
-  @media (max-width: 575px) {
   }
 }
