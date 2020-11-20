@@ -49,8 +49,12 @@
     padding-right: 80px;
 
     img {
+      transition-duration: 0.7s;
+      z-index: 5;
+      background-color: #333333;
+      border-radius: 30%;
       &:hover {
-        transform: scale(1.5);
+        transform: scale(1.3);
       }
     }
 
